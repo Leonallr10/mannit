@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+dist/
+build/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Git-specific files
+.DS_Store
+Thumbs.db
+*.bak
+*.orig
+
+# Vite-specific
+.vite/
+.cache/
+
+# MacOS-specific files
+*.DS_Store
